@@ -1,0 +1,187 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background: #0E1D0E;
+}
+.jeep-wrap *{
+	/*background-color: white;*/
+}
+.jeep-wrap{
+	width: 720px;
+	height: auto;
+	margin: 100px auto;
+}
+.top{
+	position: relative;
+	width: 100%;
+	height: 165px;
+}
+.top *{
+	display: inline-block;
+}
+.vidro{
+	position: relative;
+	z-index: 140;
+	height: 165px;
+	width: 550px;
+	background: white;
+}
+.vidro:after{
+	display: block;
+	position: absolute;
+	z-index: 150;
+	left: 225px;
+	background-color: #0E1D0E;
+	width: 8px;
+	height: 100%;
+
+}
+.retrovisor{
+	position: relative;
+	top: -59px;	
+}
+.espelho{
+	background: white;
+	width: 27px;
+	height: 51px;
+}
+.haste{
+	position: absolute;
+	z-index: 12;
+	border: 30px solid transparent;
+	border-bottom: solid 80px #0E1D0E;
+	border-top: none;
+	width: 80px;
+	height: 1px;
+}
+.haste-esq{
+	top: -15px;
+	left: 25px;
+	-webkit-transform: rotate(-90deg)
+}
+.haste-dir{
+	top: -15px;
+	right: 25px;
+	-webkit-transform: rotate(90deg)
+}
+.hasteborda{
+	display: block;
+	position: relative;
+	z-index: 10;
+	border: 30px solid transparent;
+	border-bottom: solid 80px white;
+	border-top: none;
+	width: 80px;
+	height: 1px;
+}
+.hasteborda-esq{
+	top: -71px;
+	left: 15px;
+	-webkit-transform: rotate(-90deg)
+}
+.hasteborda-dir{
+	top: -70px;
+	right: 15px;
+	-webkit-transform: rotate(90deg)
+}
+.retrovisor .espelho-dir{
+	margin-left: 55px;
+}
+.bottom{
+	margin-top: 30px;
+	position: relative;
+	height: 370px;
+}
+.bottom *{
+	display: inline-block;
+}
+
+.rodas{
+	position: relative;
+	width: 100px;
+	height: auto;
+}
+.roda-dir{
+	right: -30px;
+}
+.paralama{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 75px;
+	border-radius: 4px;
+	border-radius: 4px;
+	margin-bottom: 5px;
+	background-color: white;
+}
+.pneu{
+	position: absolute;
+	top: 80px;
+	width: 70px;
+	height: 220px;
+	border-radius: 4px;
+	background: white;
+	padding:10px 7px;
+}
+.pneu-esq{
+	right: 5px;
+}
+.pneu-dir{
+	left: 5px;
+}
+.friso{
+	width: 24px;
+	height: 13px;
+	background: #0E1D0E;
+	margin-bottom: 18px; 
+}
+.friso-esq{
+	float: left;
+	-webkit-transform: rotate(45deg);
+}
+.friso-dir{
+	float: right;
+	-webkit-transform: rotate(-45deg);
+}
+.capo{
+	position: relative;
+	height: 250px;
+}
+.farois{
+	width: 450px;
+	margin-left: 30px;
+}
+.farol{
+	position: absolute;
+	top: 0;
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	background-color: white;
+}
+.farol-dir{
+	right: 0;
+}
+.ar{
+	position: absolute;
+	top: 50px;
+	left: 120px;
+	width: 500px;
+}
+.ar-grade{
+	width: 27px;
+	height: 170px;
+	border-radius: 4px;
+	background: white;
+}
+.parachoque{
+	position: absolute;
+	width: 500px;
+	height: 40px;
+	left: 5px;
+	bottom: -30px;
+	background: white
+}
