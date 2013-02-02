@@ -6,9 +6,6 @@ body{
 	padding: 0;
 	background: #0E1D0E;
 }
-.jeep-wrap *{
-	/*background-color: white;*/
-}
 .jeep-wrap{
 	width: 720px;
 	height: auto;
